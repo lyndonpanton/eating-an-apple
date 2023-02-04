@@ -43,6 +43,16 @@ namespace Exercise6
         #endregion
 
         #region Methods
+        public void TakeBite(float size)
+        {
+            if (size >= amountLeft)
+            {
+                amountLeft = 0;
+            } else if (amountLeft != 0)
+            {
+                amountLeft -= size;
+            }
+        }
 
         #endregion
 
