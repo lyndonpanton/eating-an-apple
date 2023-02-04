@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercise6
+{
+    internal class Apple
+    {
+        #region Fields
+        private float amountLeft;
+        private bool organic;
+
+        #region Properties
+        public float AmountLeft
+        {
+            get
+            {
+                return amountLeft;
+            }
+        }
+
+        #endregion
+
+        public bool Organic
+        {
+            get
+            {
+                return organic;
+            }
+        }
+
+        #endregion
+
+        #region Constructors
+        public Apple(bool organic, float size)
+        {
+            this.organic = organic;
+            this.amountLeft = size;
+        }
+
+        #endregion
+
+        #region Methods
+
+        #endregion
+
+
+    }
+}
